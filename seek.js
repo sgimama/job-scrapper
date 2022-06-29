@@ -9,7 +9,7 @@ const { convert } = require("html-to-text");
   const numberOfPages = 3;
   const withDescription = false;
 
-  const browser = await puppeteer.launch({ headless: false });
+  const browser = await puppeteer.launch({ headless: true });
   const page = await browser.newPage();
   const jobsArray = [];
   for (let i = 1; i <= numberOfPages; i++) {
