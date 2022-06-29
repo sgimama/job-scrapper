@@ -1,0 +1,17 @@
+{
+  "name": "job-scraping",
+  "version": "1.0.0",
+  "description": "Job scraping",
+  "main": "index.js",
+  "author": "Sergio Gimenez",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "html-to-text": "^8.2.0",
+    "objects-to-csv": "^1.3.6",
+    "puppeteer": "^14.4.1"
+  },
+  "devDependencies": {
+    "prettier": "2.7.1"
+  }
+}
